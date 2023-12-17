@@ -38,7 +38,7 @@ body {
   font-size: 2.8rem;
 }
 
-.content-container p, ol, li, strong {
+ol, li, strong {
   font-size: 1.7rem; /* Установите размер текста 2rem */
   font-family: 'Handlee';
 }
