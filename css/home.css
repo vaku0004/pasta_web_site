@@ -201,6 +201,10 @@ textarea {
     background-color: rgba(255, 255, 255, 0.7); /* Последнее значение (0.7) определяет прозрачность (от 0 до 1) */
     border-radius: 0;
 }
+
+.navbar-nav li a:hover {
+  color: #b9a70b; 
+}
 /*MOB*/
 
 @media (max-width: 850px) {
