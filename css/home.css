@@ -52,6 +52,10 @@ body {
   padding-top: 200px;
   font-family: 'Vollkorn', serif;
 }
+
+.introduction p {
+  font-family: 'Vollkorn', serif;
+}
 /*desk*/
 footer p {
     text-align: center;
