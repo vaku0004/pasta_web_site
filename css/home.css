@@ -204,7 +204,6 @@ textarea {
   }*/
 
   .navbar-nav li a {
-    color: #f6ff4b; /* Задайте цвет текста (например, черный) */
     font-size: 14px; /* Задайте размер шрифта */
     text-decoration: none; /* Убрать подчеркивание ссылок */
   }
@@ -317,7 +316,6 @@ textarea {
     width: 60%;
   }
   .navbar-nav li a {
-    color: #75ff4b; /* Задайте цвет текста (например, черный) */
     font-size: 14px; /* Задайте размер шрифта */
     text-decoration: none; /* Убрать подчеркивание ссылок */
   }
@@ -333,7 +331,6 @@ textarea {
     width: 49%;
   }
   .navbar-nav li a {
-    color: #566815; /* Задайте цвет текста (например, черный) */
     font-size: 14px; /* Задайте размер шрифта */
     text-decoration: none; /* Убрать подчеркивание ссылок */
   }
@@ -348,7 +345,6 @@ textarea {
     width: 38%;
   }
   .navbar-nav li a {
-    color: #bf561a; /* Задайте цвет текста (например, черный) */
     font-size: 14px; /* Задайте размер шрифта */
     text-decoration: none; /* Убрать подчеркивание ссылок */
   }
@@ -374,7 +370,6 @@ textarea {
   }*/
 
   .navbar-nav li a {
-    color: #8b5011; /* Задайте цвет текста (например, черный) */
     font-size: 14px; /* Задайте размер шрифта */
     text-decoration: none; /* Убрать подчеркивание ссылок */
   }
@@ -461,7 +456,6 @@ textarea {
 
 @media (min-width: 1550px) and (max-width: 1768px) {
   .navbar-nav li a {
-    color: #8b114e; /* Задайте цвет текста (например, черный) */
     font-size: 16px; /* Задайте размер шрифта */
     text-decoration: none; /* Убрать подчеркивание ссылок */
   }
@@ -477,7 +471,6 @@ textarea {
 
 @media (min-width: 1950px) {
   .navbar-nav li a {
-    color: #df91b8; /* Задайте цвет текста (например, черный) */
     text-decoration: none; /* Убрать подчеркивание ссылок */
   }
 
