@@ -52,7 +52,7 @@ ol, li, strong {
   overflow-y: auto;
   padding-top: 200px;
   font-family: 'Vollkorn', serif;
-  border-color: chartreuse;
+  background-color: chartreuse;
 }
 
 .introduction p {
