@@ -31,6 +31,7 @@ body {
   width: 100%;
   height: 505vh;
   font-family: 'Libre Baskerville', serif;
+  background-color: aqua;
 }
 
 .content-container h1, h2 {
@@ -51,6 +52,7 @@ ol, li, strong {
   overflow-y: auto;
   padding-top: 200px;
   font-family: 'Vollkorn', serif;
+  border-color: chartreuse;
 }
 
 .introduction p {
