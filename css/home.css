@@ -1,0 +1,508 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Libre Baskerville', serif;
+    color: #e3e4d6;
+    font: 2rem;
+}
+
+ p, ol, li, strong {
+  font-size: 1.3rem; /* Установите размер текста 2rem */
+}
+
+.wrapper {
+    flex: 1;
+    /*background-image: url('../images/home-large6.jpg');*/
+    /*background-size: 100% 110%;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-size: cover;
+    background-image: url(../images/empty.jpg);
+}
+/*desk*/
+.desk {
+  background-image: url(../images/chalkboard2.jpg);
+  background-size: 90% 500vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 505vh;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.content-container h1, h2 {
+  font-family: 'Handlee';
+  font-size: 2.8rem;
+}
+
+.content-container p, ol, li, strong {
+  font-size: 1.7rem; /* Установите размер текста 2rem */
+  font-family: 'Handlee';
+}
+
+.content-container {
+  max-width: 75%; /* Чтобы контент не выходил за пределы внешнего контейнера */
+  padding: 20px; /* Добавьте отступы по краям контейнера */
+  box-sizing: border-box; /* Учтите отступы в общей ширине/высоте контейнера */
+  padding-top: 150px;
+  overflow-y: auto;
+  padding-top: 200px;
+  font-family: 'Vollkorn', serif;
+}
+/*desk*/
+footer p {
+    text-align: center;
+    margin-bottom: -140px;
+    font-size: 12px; 
+    padding: 30px;
+    background-color: #0f1517;
+}
+
+hr {
+  border-color: #e3e4d6;
+  border-width: 1px;
+  width: 80%;
+  margin: 0 auto; 
+  opacity: 1;
+}
+
+.navbar-nav li a {
+  color: #e3e4d6; /* Задайте цвет текста (например, черный) */
+  font-size: 16px; /* Задайте размер шрифта */
+  text-decoration: none; /* Убрать подчеркивание ссылок */
+  font-family: 'Libre Baskerville', serif;
+}
+
+p {
+  color: #e3e4d6;
+  font-size: 20px; 
+}
+
+.r1 {
+  margin-top: 24em;
+}
+
+.icon {
+  font-size: 56px;
+}
+
+.icon a {
+  color: #e3e4d6;
+}
+
+.icon i.left {
+  color: #7d8229;
+
+}
+
+.icon i.right {
+
+  color: #d1d1c9;
+}
+
+.c-tab,
+.c-mob {
+  display: none;
+}
+
+.c-big {
+  display: block;
+}
+
+.logobar {
+  max-width: 110px; /* Установите желаемую максимальную ширину */
+  max-height: 110px; /* Установите желаемую максимальную высоту */
+}
+
+.click {
+  background-color: transparent;
+  border: 1px solid #d1d1c9;
+  border-radius: 50%;
+  color: #d1d1c9;
+  font-family: 'Vollkorn', serif;
+  font-size: 20px;
+  padding: 20px;
+  text-decoration: none;
+  transition: all 0.3s;
+  width: 180px;
+  height: 70px;
+  margin-bottom: 60px;
+  margin-left: 2%;
+}
+
+.click:hover {
+  background-color: #c7c8c8;
+  color: white;
+}
+
+.click:active {
+  background-color: rgb(57, 71, 81);
+  border-color: #2b343a;
+  color: white;
+}
+
+.paper {
+  background-image: url(../images/book-big.png);/*
+  width: 80vw;
+  height: 100vh;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 90%;
+  height: 800px;
+}
+
+.paper-mob {
+  display: none;
+}
+
+.carousel4 {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-book {
+  width: 50%;
+  height: 30rem;
+  left: 25%;
+  top: 12%;
+}
+
+/*FORM*/
+.form-label,
+.form-control,
+button {
+    color: #ececec; /* Замените #ff0000 на нужный вам цвет (например, #0000ff для синего) */
+}
+
+.contact-button button {
+  color: rgb(23, 23, 23);
+}
+
+/* Сделать форму полупрозрачной */
+form {
+    padding: 20px; /* Добавьте отступ, чтобы видеть эффект полупрозрачности */
+}
+
+/* Сделать поля формы квадратными */
+.form-control,
+textarea {
+    width: 100%; /* Занимать 100% доступной ширины */
+    box-sizing: border-box; /* Учитывать границы и отступы в общей ширине элемента */
+    background-color: rgba(255, 255, 255, 0.7); /* Последнее значение (0.7) определяет прозрачность (от 0 до 1) */
+    border-radius: 0;
+}
+/*MOB*/
+
+@media (max-width: 850px) {
+  /*
+  .wrapper {
+      background-image: url('../images/home-mob2.jpg'); 
+  }*/
+
+  .navbar-nav li a {
+    color: #f6ff4b; /* Задайте цвет текста (например, черный) */
+    font-size: 14px; /* Задайте размер шрифта */
+    text-decoration: none; /* Убрать подчеркивание ссылок */
+  }
+
+  .c-tab,
+  .c-big {
+    display: none;
+  }
+
+  .c-mob {
+    display: block;
+  }
+
+  .navbar-brand img {
+    max-width: 110px; /* Установите желаемую максимальную ширину */
+    max-height: 110px; /* Установите желаемую максимальную высоту */
+  }
+
+  .navbar-brand {
+    color: #c7c8c8;
+  }
+
+
+  .logoimg2 {
+    display: none;
+  }
+
+  .logo {
+    margin-left: 40px;
+    margin: auto;
+  }
+
+  .logobar {
+    max-width: 50px; /* Установите желаемую максимальную ширину */
+    max-height: 50px; /* Установите желаемую максимальную высоту */
+  }
+
+  .paper-mob {
+    background-image: url(../images/book-mob.png);
+    width: 90vw;
+    height: 95vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+  }
+
+  .carousel-book-mob {
+  
+    margin-left: 2em;
+    top: 10%;
+    height: 350px;
+    width: 15rem;
+  }
+
+  .carousel5 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .carousel4, 
+  .carousel-book,
+  .paper {
+    display: none;
+  } 
+  
+  .logobar {
+    max-width: 90px; /* Установите желаемую максимальную ширину */
+    max-height: 90px; /* Установите желаемую максимальную высоту */
+  }
+
+  /*desk*/
+.desk {
+  background-image: url(../images/chalkboard2.jpg);
+  background-size: 90% 500vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 505vh;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.content-container h1, h2 {
+  font-family: 'Handlee';
+  font-size: 2rem;
+}
+
+.content-container p, ol, li, strong {
+  font-size: 1.55rem; /* Установите размер текста 2rem */
+  font-family: 'Handlee';
+}
+
+.content-container {
+  max-width: 75%; /* Чтобы контент не выходил за пределы внешнего контейнера */
+  padding: 20px; /* Добавьте отступы по краям контейнера */
+  box-sizing: border-box; /* Учтите отступы в общей ширине/высоте контейнера */
+  padding-top: 140px;
+  overflow-y: auto;
+  font-family: 'Vollkorn', serif;
+}
+/*desk*/
+ 
+}
+
+@media (min-width: 450px) and (max-width: 550px) {
+  .carousel-book-mob {
+    margin-left: 2em;
+    top: 6%;
+    height: 29rem;
+    width: 60%;
+  }
+  .navbar-nav li a {
+    color: #75ff4b; /* Задайте цвет текста (например, черный) */
+    font-size: 14px; /* Задайте размер шрифта */
+    text-decoration: none; /* Убрать подчеркивание ссылок */
+  }
+
+}
+
+
+@media (min-width: 550px) and (max-width: 650px) {
+  .carousel-book-mob {
+    margin-left: 16%;
+    top: 2%;
+    height: 28rem;
+    width: 49%;
+  }
+  .navbar-nav li a {
+    color: #566815; /* Задайте цвет текста (например, черный) */
+    font-size: 14px; /* Задайте размер шрифта */
+    text-decoration: none; /* Убрать подчеркивание ссылок */
+  }
+
+}
+
+@media (min-width: 650px) and (max-width: 850px) {
+  .carousel-book-mob {
+    left: 17%;
+    top: 2%;
+    height: 30rem;
+    width: 38%;
+  }
+  .navbar-nav li a {
+    color: #bf561a; /* Задайте цвет текста (например, черный) */
+    font-size: 14px; /* Задайте размер шрифта */
+    text-decoration: none; /* Убрать подчеркивание ссылок */
+  }
+
+  .desk {
+    background-image: url(../images/chalkboard2.jpg);
+    background-size: 90% 400vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 405vh;
+    font-family: 'Libre Baskerville', serif;
+  }
+
+}
+/*TAB*/
+
+
+@media (min-width: 850px) and (max-width: 1168px) {
+  /*
+  .wrapper {
+      background-image: url('../images/home-tab1.jpg'); 
+  }*/
+
+  .navbar-nav li a {
+    color: #8b5011; /* Задайте цвет текста (например, черный) */
+    font-size: 14px; /* Задайте размер шрифта */
+    text-decoration: none; /* Убрать подчеркивание ссылок */
+  }
+
+  .c-big,
+  .c-mob {
+    display: none;
+  }
+
+  .c-tab {
+    display: block;
+  }
+
+  .nav-link img {
+    max-width: 100px; /* Установите желаемую максимальную ширину */
+    max-height: 100px; /* Установите желаемую максимальную высоту */
+  }
+
+  .logobar {
+    max-width: 90px; /* Установите желаемую максимальную ширину */
+    max-height: 90px; /* Установите желаемую максимальную высоту */
+  }
+
+  .paper {
+    background-image: url(../images/book-big.png);
+    width: 90vw;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 90%;
+  }
+
+  .carousel-book {
+    width: 50%;
+    height: 20rem;
+    left: 25%;
+    top: 12%;
+  }
+
+  .desk {
+    background-image: url(../images/chalkboard2.jpg);
+    background-size: 90% 455vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 455vh;
+    font-family: 'Libre Baskerville', serif;
+  }
+
+  .content-container {
+    max-width: 75%; /* Чтобы контент не выходил за пределы внешнего контейнера */
+    padding: 20px; /* Добавьте отступы по краям контейнера */
+    box-sizing: border-box; /* Учтите отступы в общей ширине/высоте контейнера */
+    padding-top: 120px;
+    overflow-y: auto;
+    font-family: 'Vollkorn', serif;
+  }
+
+}
+
+/*PRODUCTS*/
+/*
+.paper {
+  background-image: url(../images/book-big.png);
+  width: 80vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+
+.carousel4 {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-frame {
+  width: 35%;
+  height: 60%;
+  left: 22%;
+  top: 12%;
+}
+
+@media (min-width: 1550px) and (max-width: 1768px) {
+  .navbar-nav li a {
+    color: #8b114e; /* Задайте цвет текста (например, черный) */
+    font-size: 16px; /* Задайте размер шрифта */
+    text-decoration: none; /* Убрать подчеркивание ссылок */
+  }
+
+  .carousel-frame {
+    width: 55%;
+    height: 50%;
+    left: 22%;
+    top: 18%;
+  }
+}
+
+
+@media (min-width: 1950px) {
+  .navbar-nav li a {
+    color: #df91b8; /* Задайте цвет текста (например, черный) */
+    text-decoration: none; /* Убрать подчеркивание ссылок */
+  }
+
+  .carousel-frame {
+    width: 55%;
+    height: 70%;
+    left: 22%;
+    top: 5%;
+  }
+}
+
+
+@media (min-width: 850px) and (max-width: 1200px) {
+
+
+  .navbar-nav li a {
+    font-size: 16px; /* Задайте размер шрифта */
+    text-decoration: none; /* Убрать подчеркивание ссылок */
+  }
+
+  .carousel-frame {
+    width: 75%;
+    height: 40%;
+    left: 22%;
+    top: 24%;
+  }
+
+}
